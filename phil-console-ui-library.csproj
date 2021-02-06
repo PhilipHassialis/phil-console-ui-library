@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>phil_console_ui_library</RootNamespace>
     <PackageId>phil.consoleui.library</PackageId>
-    <Version>0.0.1-alpha</Version>
+    <Version>0.0.2-alpha</Version>
     <Authors>Philip - Alexander Hassialis</Authors>
     <Company>DonPhelippe's</Company>
     <Description>
@@ -15,6 +15,7 @@
     <Language>EN</Language>
     <RequireLicenseAcceptance>true</RequireLicenseAcceptance>
     <Copyright>(C) 2021 Philip - Alexander Hassialis</Copyright>
+    <RepositoryUrl>https://github.com/PhilipHassialis/phil-console-ui-library</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
