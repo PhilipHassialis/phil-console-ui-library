@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>phil_console_ui_library</RootNamespace>
+    <PackageId>phil.consoleui.library</PackageId>
+    <Version>0.0.1-alpha</Version>
+    <Authors>Philip - Alexander Hassialis</Authors>
+    <Company>DonPhelippe's</Company>
+    <Description>
+      A minimalistic library for some Console menu's and other minimal UI components. Work in progress and definitely not for production
+    </Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Title>Philip's Console UI Library</Title>
+    <Language>EN</Language>
+    <RequireLicenseAcceptance>true</RequireLicenseAcceptance>
+    <Copyright>(C) 2021 Philip - Alexander Hassialis</Copyright>
+  </PropertyGroup>
+
+</Project>
