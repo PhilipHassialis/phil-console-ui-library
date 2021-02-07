@@ -3,8 +3,19 @@ using System;
 namespace phil_console_ui_ibrary
 {
 
+    /// <summary>
+    /// A class that helps with Menu creations
+    /// </summary>
     public class Menu
     {
+        /// <summary>
+        /// Displays a menu and returns a value representing the index of the option selected
+        /// </summary>
+        /// <param name="options">A string array of options - user is expected to select one of them</param>
+        /// <param name="activeColor">The color that the active option is highlighted with</param>
+        /// <param name="activeBgColor">The background color for the active option</param>
+        /// <param name="fixSelectorLength">If true then the selection indicator is padded with spaces for a better menu experience</param>
+        /// <returns></returns>
         public static int Display(string[] options, ConsoleColor activeColor = ConsoleColor.Blue,
             ConsoleColor activeBgColor = ConsoleColor.Black, bool fixSelectorLength = false)
         {
